@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF176"
+    android:padding="5dp"
+    tools:context=".fragments.NotesFragment">
+
+    <EditText
+        android:id="@+id/notesEditText"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_height="match_parent"
+        android:textColorHint="@color/grey"
+        android:background="#FFF9C4"
+        android:gravity="top"
+        android:padding="5dp"
+        android:textCursorDrawable="@null" />
+
+</FrameLayout>
